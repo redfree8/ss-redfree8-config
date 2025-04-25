@@ -4,31 +4,108 @@
 //support-url: https://t.me/redfree8bot
 //profile-web-page-url: https://github.com/redfree8
 
-vless://0a44145f-59dc-4e5b-a233-677b97f5114c@15.204.184.159:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&sni=147135011033.sec21org.com#%40v2ray313%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%F0%9F%98%8A
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam @redfree8
 
-vless://2a219df1-a04b-4424-bfd2-cb37aeb10b2c@213.142.133.172:7594?mode=gun&security=reality&encryption=none&pbk=AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw&fp=chrome&type=grpc&serviceName=7594vless&sni=dash.cloudflare.com&sid=765e8e700426816c#%40NETMelliAnti%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%A8%D8%B2%D9%86
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@cdn-nodes.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve @redfree8
 
-vless://3058e698-61fd-4d12-95bc-f1fe4c071643@zula.ir:443?path=%2FxVzTiAjXOMalQIj4%3Fed%3D8080&security=tls&alpn=http%2F1.1&encryption=none&host=hozori.ir&fp=randomized&type=ws&sni=HOZorI.iR#%F0%9F%87%A9%F0%9F%87%AA%5BAll%5D%20Telegram%F0%9F%91%89%40NETMelliAnti
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@nodes.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany @redfree8
 
-vless://31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9@104.17.147.22:2087?path=%2F&security=tls&encryption=none&host=Tp008CsUrZ.rAmRiDdEr.CoM&type=ws&sni=Tp008CsUrZ.rAmRiDdEr.CoM#%40NETMelliAnti%20%D9%87%D9%85%D8%B4%D9%88%20%D8%AA%D8%B3%D8%AA%20%DA%A9%D9%86
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia @redfree8
 
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@141.193.213.0:80?path=%2F&security=none&encryption=none&host=psycho.suex12.ir&type=ws#%40NETMelliAnti%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam" readonly>
+            <button class="copy-button" onclick="copyLink('
 
-vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@104.17.148.22:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=5-55sfjslf.ifenxiang.cfd&fp=random&type=ws&sni=5-55sfjslf.ifenxiang.cfd#%40v2ray313%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%F0%9F%A5%B9
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="
 
-vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@104.26.12.54:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=5-55sfjslf.ifenxiang.cfd&fp=random&type=ws&sni=5-55sfjslf.ifenxiang.cfd#%40V2RAYFREE_IR%20
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam', this)">Copy</button>
+            <button class="qr-button" data-link="
 
-vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@162.159.10.162:2087?path=%2Fnet.net%3Fed%3D2560&security=tls&encryption=none&host=5-55sfjslf.ifenxiang.cfd&type=ws&sni=5-55sfjslf.ifenxiang.cfd#%40NETMelliAnti%20%3A%20%DA%86%D9%86%D9%84%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@cdn-nodes.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve" readonly>
+            <button class="copy-button" onclick="copyLink('
 
-vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@162.159.10.162:2087?path=%2Fnet.net%3Fed%3D2560&security=tls&encryption=none&host=5-55sfjslf.ifenxiang.cfd&type=ws&sni=5-55sfjslf.ifenxiang.cfd#%40V2RAYFREE_IR%20
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@cdn-nodes.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="
 
-vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@162.159.153.2:443?path=%2FTelegram%40v2rayngzendegimamad%2F%3Fed%3D2560&security=tls&encryption=none&host=5-55sfjslf.ifenxiang.cfd&fp=random&type=ws&sni=5-55sfjslf.ifenxiang.cfd#%40v2ray313%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%F0%9F%99%82
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@cdn-nodes.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve', this)">Copy</button>
+            <button class="qr-button" data-link="
 
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@104.25.254.4:2087?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=vlee.amclubs.nyc.mn&type=ws&sni=vlee.amclubs.nyc.mn#%40NETMelliAnti%201
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@nodes.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany" readonly>
+            <button class="copy-button" onclick="copyLink('
 
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@104.25.254.4:2087?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=vlee.amclubs.nyc.mn&type=ws&sni=vlee.amclubs.nyc.mn#%40v2ray313%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%F0%9F%98%B6%E2%80%8D%F0%9F%8C%AB%EF%B8%8F
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@nodes.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany">QR Code</button>
+        </li>
+        
+    </ul>
+    <div class="qr-popup" id="qrPopup">
+        <div class="qr-close-button">
+            <button onclick="closeQrPopup()">X</button>
+        </div>
+        <div id="qrCodeContainer"></div>
+    </div>
+    
 
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@37.27.31.235:8880?mode=gun&security=none&encryption=none&type=grpc#%40v2ray313%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%F0%9F%A4%AA
+    <script>
+        function copyLink(link, button) {
+            const tempInput = document.createElement('input');
+            tempInput.setAttribute('value', link);
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            button.textContent = 'Copied!';
+            setTimeout(function () {
+                button.textContent = 'Copy';
+            }, 1500);
+        }
+
+        const qrButtons = document.querySelectorAll('.qr-button');
+        const qrPopup = document.getElementById('qrPopup');
+
+        qrButtons.forEach((qrButton) => {
+            qrButton.addEventListener('click', () => {
+                const link = qrButton.dataset.link;
+                while (qrCodeContainer.firstChild) {
+                    qrCodeContainer.removeChild(qrCodeContainer.firstChild);
+                }
+                const qrCode = new QRCode(qrCodeContainer, {
+                    text: link,
+                    width: 256,
+                    height: 256,
+                    correctLevel: QRCode.CorrectLevel.L
+                });
+                qrPopup.style.display = 'block';
+            });
+        });
+        function closeQrPopup() {
+            document.getElementById('qrPopup').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@nodes.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany', this)">Copy</button>
+            <button class="qr-button" data-link="
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia" readonly>
+            <button class="copy-button" onclick="copyLink('
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia', this)">Copy</button>
+            <button class="qr-button" data-link="
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@135.116.16.35:48172/?POST%20#Server-1
 
@@ -38,13 +115,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@20.240.200.137
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@20.240.200.137:48172/?POST%20#Server-4
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@api.namasha.co:443#%40V2RAYFREE_IR%20
-
 trojan://redfree8@www.speedtest.net:443?path=%2Ftrre5IzbZ9IZZMddtw%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&host=ipsycho.suex12.ir&fp=randomized&type=ws&sni=ipsychO.SUEx12.Ir#ipsycho - @redfree8 ➎
-
-vmess://eyJhZGQiOiI0NS4xMi4xMzguODIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiY2RlOWYwNzQtYzkzMC00YWEzLWE1NTgtNDZiYmM5ZDBhNWExIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1NDc1NyIsInBzIjoiMzAw2q/bjNqvIDM52KrZiNmF2KfZhiEg2KrYs9iq4oCM2LHYp9uM2q/Yp9mG8J+kqVRpY2tWMmJvdEAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-
-vmess://eyJhZGQiOiI5MS4xOTQuMTEuMTE4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImMyM2IxMjdiLWFmODctNDNiYi1hYTFlLWNlNDIzNzRhMmI1MyIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjc2OTkiLCJwcyI6IjMwMNqv24zaryAzOdiq2YjZhdin2YYhINiq2LPYquKAjNix2KfbjNqv2KfZhvCfpKlUaWNrVjJib3RAIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-
-vmess://eyJhZGQiOiJiaWlpYS12cG4td2hhbC5mYXN0Lmhvc3RpbmctaXAuY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJjYXQuSVIuIiwiaWQiOiJpZDQ2LS0tQHZwbi13aGFsIiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNTYvI2lkLXRlbGVncmFtOi0tLVx1MDAzZUB2cG5fd2hhbFx1MDAzYy0tLSIsInBvcnQiOiI4MCIsInBzIjoiMzAw2q/bjNqvIDM52KrZiNmF2KfZhiEg2KrYs9iq4oCM2LHYp9uM2q/Yp9mG8J+agFRpY2tWMmJvdEAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 
