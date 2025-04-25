@@ -4,7 +4,8 @@
 # Add or remove URLs as needed. All URLs in this list are automatically enabled.
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
-    "https://t.me/s/v2rayfree",
+    "https://t.me/s/red_free8",
+    "https://panel.maviks.eu/sub/NjEzODY1NDgyOCwxNzQ1NDI0MzEzYmY16g-TLe",
     "https://t.me/s/redfree8",
     # Add more URLs here if you want to include additional sources.
 ]
