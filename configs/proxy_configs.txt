@@ -4,18 +4,6 @@
 //support-url: https://t.me/redfree8bot
 //profile-web-page-url: https://github.com/redfree8
 
-vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam" readonly>
-            <button class="copy-button" onclick="copyLink('
-
-vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam">QR Code</button>
-        </li>
-        
-        <li>
-            <input type="text" value="
-
-vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam', this)">Copy</button>
-            <button class="qr-button" data-link="
-
 vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam" readonly>
             <button class="copy-button" onclick="copyLink('
 
@@ -26,6 +14,18 @@ vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.maviks.eu:443?security=reality
             <input type="text" value="
 
 vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam', this)">Copy</button>
+            <button class="qr-button" data-link="
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@b.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam" readonly>
+            <button class="copy-button" onclick="copyLink('
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@b.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="
+
+vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@b.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam', this)">Copy</button>
             <button class="qr-button" data-link="
 
 vless://dcb75913-64dd-4a26-a63d-7bea1416b3ac@cdn-nodes.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve" readonly>
