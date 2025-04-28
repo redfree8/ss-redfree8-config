@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-04-28T11:06:38.236474+00:00",
+  "timestamp": "2025-04-28T14:03:50.220808+00:00",
   "channels": [
     {
       "url": "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
@@ -8,11 +8,11 @@
         "total_configs": 36,
         "valid_configs": 4,
         "unique_configs": 4,
-        "avg_response_time": 0.19,
+        "avg_response_time": 0.14,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 77.5,
-        "last_success": "2025-04-28T11:06:29.239080+00:00",
+        "overall_score": 77.57,
+        "last_success": "2025-04-28T14:03:42.264658+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
@@ -25,53 +25,7 @@
       }
     },
     {
-      "url": "https://t.me/s/red_free8",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 13,
-        "valid_configs": 8,
-        "unique_configs": 8,
-        "avg_response_time": 1.09,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 88.75,
-        "last_success": "2025-04-28T11:06:32.345844+00:00",
-        "protocol_counts": {
-          "wireguard://": 0,
-          "hysteria2://": 0,
-          "vless://": 4,
-          "vmess://": 0,
-          "ss://": 4,
-          "trojan://": 0,
-          "tuic://": 0
-        }
-      }
-    },
-    {
-      "url": "https://panel.maviks.eu/sub/NjEzODY1NDgyOCwxNzQ1NDI0MzEzYmY16g-TLe",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 1656,
-        "valid_configs": 12,
-        "unique_configs": 12,
-        "avg_response_time": 0.62,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 74.26,
-        "last_success": "2025-04-28T11:06:34.982138+00:00",
-        "protocol_counts": {
-          "wireguard://": 0,
-          "hysteria2://": 0,
-          "vless://": 12,
-          "vmess://": 0,
-          "ss://": 0,
-          "trojan://": 0,
-          "tuic://": 0
-        }
-      }
-    },
-    {
-      "url": "https://t.me/s/redfree8",
+      "url": "https://t.me/s/red_free",
       "enabled": false,
       "metrics": {
         "total_configs": 0,
@@ -88,6 +42,52 @@
           "vless://": 0,
           "vmess://": 0,
           "ss://": 0,
+          "trojan://": 0,
+          "tuic://": 0
+        }
+      }
+    },
+    {
+      "url": "https://panel.maviks.eu/sub/NjEzODY1NDgyOCwxNzQ1NDI0MzEzYmY16g-TLe",
+      "enabled": true,
+      "metrics": {
+        "total_configs": 1656,
+        "valid_configs": 12,
+        "unique_configs": 12,
+        "avg_response_time": 0.47,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 74.47,
+        "last_success": "2025-04-28T14:03:48.034915+00:00",
+        "protocol_counts": {
+          "wireguard://": 0,
+          "hysteria2://": 0,
+          "vless://": 12,
+          "vmess://": 0,
+          "ss://": 0,
+          "trojan://": 0,
+          "tuic://": 0
+        }
+      }
+    },
+    {
+      "url": "https://t.me/s/redfree8ss",
+      "enabled": true,
+      "metrics": {
+        "total_configs": 4,
+        "valid_configs": 4,
+        "unique_configs": 4,
+        "avg_response_time": 0.17,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 99.74,
+        "last_success": "2025-04-28T14:03:50.220208+00:00",
+        "protocol_counts": {
+          "wireguard://": 0,
+          "hysteria2://": 0,
+          "vless://": 0,
+          "vmess://": 0,
+          "ss://": 4,
           "trojan://": 0,
           "tuic://": 0
         }
