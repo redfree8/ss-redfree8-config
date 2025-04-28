@@ -5,7 +5,7 @@
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
     "https://t.me/s/red_free",
-    "https://panel.maviks.eu/sub/NjEzODY1NDgyOCwxNzQ1NDI0MzEzYmY16g-TLe",
+    "https://t.me/s/red_fre",
     "https://t.me/s/redfree8ss",
     # Add more URLs here if you want to include additional sources.
 ]
