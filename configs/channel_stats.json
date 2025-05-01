@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-05-01T04:47:30.019219+00:00",
+  "timestamp": "2025-05-01T05:39:55.548144+00:00",
   "channels": [
     {
       "url": "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
@@ -8,11 +8,11 @@
         "total_configs": 36,
         "valid_configs": 4,
         "unique_configs": 4,
-        "avg_response_time": 0.19,
+        "avg_response_time": 0.09,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 77.49,
-        "last_success": "2025-05-01T04:47:21.222196+00:00",
+        "overall_score": 77.65,
+        "last_success": "2025-05-01T05:39:48.719244+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
@@ -77,11 +77,11 @@
         "total_configs": 4,
         "valid_configs": 4,
         "unique_configs": 4,
-        "avg_response_time": 0.22,
+        "avg_response_time": 0.13,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 99.67,
-        "last_success": "2025-05-01T04:47:30.018710+00:00",
+        "overall_score": 99.8,
+        "last_success": "2025-05-01T05:39:55.547532+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
