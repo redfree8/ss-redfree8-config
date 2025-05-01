@@ -4,6 +4,44 @@
 //support-url: https://t.me/redfree8bot
 //profile-web-page-url: https://github.com/redfree8
 
+vless://095e8451-3467-4f5f-a3c6-5e47e667c244@a.nl.maviks.eu:8443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam
+
+vless://095e8451-3467-4f5f-a3c6-5e47e667c244@d.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam
+
+vless://095e8451-3467-4f5f-a3c6-5e47e667c244@e.nl.cdn.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve
+
+vless://095e8451-3467-4f5f-a3c6-5e47e667c244@nodes.maviks.eu:8443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany
+
+vless://095e8451-3467-4f5f-a3c6-5e47e667c244@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia
+
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@a.nl.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam @redfree8
+
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@cdn-nodes.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve @redfree8
+
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@nodes.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany @redfree8
+
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia @redfree8
+
+vless://e85c4b2f-9ff5-4a43-9c6a-6013c1c2eeef@a.nl.maviks.eu:8443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam
+
+vless://e85c4b2f-9ff5-4a43-9c6a-6013c1c2eeef@b.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam
+
+vless://e85c4b2f-9ff5-4a43-9c6a-6013c1c2eeef@e.nl.cdn.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve
+
+vless://e85c4b2f-9ff5-4a43-9c6a-6013c1c2eeef@nodes.maviks.eu:8443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany
+
+vless://e85c4b2f-9ff5-4a43-9c6a-6013c1c2eeef@ru.maviks.
+
+vless://f49c1c0d-75a6-464f-bcff-86f4110cc561@a.nl.maviks.eu:8443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#%F0%9F%87%B3%F0%9F%87%B1%20Amsterdam
+
+vless://f49c1c0d-75a6-464f-bcff-86f4110cc561@c.nl.cdn.maviks.eu:443?security=tls&type=httpupgrade&headerType=&path=%2FMaGLM25tSikPTFr75Q0Yri&host=cdn.maviks.eu&sni=cdn.maviks.eu&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20Rotterdam
+
+vless://f49c1c0d-75a6-464f-bcff-86f4110cc561@e.nl.cdn.maviks.eu:443?security=tls&type=ws&headerType=&path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560&host=cdn-nodes.maviks.eu&sni=cdn-nodes.maviks.eu&fp=chrome#%F0%9F%9B%A0%20Reserve
+
+vless://f49c1c0d-75a6-464f-bcff-86f4110cc561@nodes.maviks.eu:8443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#%F0%9F%87%A9%F0%9F%87%AA%20Germany
+
+vless://f49c1c0d-75a6-464f-bcff-86f4110cc561@ru.maviks.eu:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=maviks.eu&fp=chrome&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&sid=0f917152a871e9c0#%F0%9F%87%B7%F0%9F%87%BA%20Russia
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@135.116.16.35:48172/?POST%20#Server-1
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@135.116.16.35:48172/?POST%20#Server-2

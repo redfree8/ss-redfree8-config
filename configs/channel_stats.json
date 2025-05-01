@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-05-01T13:33:41.723443+00:00",
+  "timestamp": "2025-05-01T14:37:37.796220+00:00",
   "channels": [
     {
       "url": "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
@@ -8,11 +8,11 @@
         "total_configs": 36,
         "valid_configs": 4,
         "unique_configs": 4,
-        "avg_response_time": 0.12,
+        "avg_response_time": 0.2,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 77.6,
-        "last_success": "2025-05-01T13:33:34.310882+00:00",
+        "overall_score": 77.48,
+        "last_success": "2025-05-01T14:37:30.514436+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
@@ -74,18 +74,18 @@
       "url": "https://t.me/s/redfree8ss",
       "enabled": true,
       "metrics": {
-        "total_configs": 4,
-        "valid_configs": 4,
-        "unique_configs": 4,
-        "avg_response_time": 0.2,
+        "total_configs": 23,
+        "valid_configs": 23,
+        "unique_configs": 23,
+        "avg_response_time": 0.19,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 99.71,
-        "last_success": "2025-05-01T13:33:41.722804+00:00",
+        "overall_score": 99.72,
+        "last_success": "2025-05-01T14:37:37.795478+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
-          "vless://": 0,
+          "vless://": 19,
           "vmess://": 0,
           "ss://": 4,
           "trojan://": 0,
