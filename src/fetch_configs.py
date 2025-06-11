@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from config import ProxyConfig, ChannelConfig
 from config_validator import ConfigValidator
 import base64
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 logging.basicConfig(
     level=logging.INFO,
@@ -23,23 +23,60 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def set_remark(config: str, remark: str) -> str:
+# --- START: Final and Smartest set_remark function ---
+def set_remark(config: str, tag: str) -> str:
+    """
+    Extracts leading flag emojis from the old remark and combines them
+    with the new tag. Format: "TAG 🇩🇪".
+    If no emoji is found, only the new tag is used.
+    """
     try:
+        old_remark = ""
+        # Step 1: Extract the old remark from the config
         if config.startswith("vmess://"):
-            b64_part = config[8:]
+            b64_part = config[8:].split('#', 1)[0]
             b64_part += '=' * (-len(b64_part) % 4)
             decoded_str = base64.b64decode(b64_part).decode('utf-8')
             config_json = json.loads(decoded_str)
-            config_json['ps'] = remark
+            old_remark = config_json.get('ps', '')
+        elif '#' in config:
+            old_remark_encoded = config.split('#', 1)[1]
+            old_remark = unquote(old_remark_encoded)
+
+        # Step 2: Create the new remark string by finding emojis
+        # This regex pattern finds one or more emoji characters at the start of the string
+        emoji_pattern = re.compile(
+            r"^\s*([\U0001F1E0-\U0001F1FF"  # Flags
+            r"\U0001F300-\U0001F5FF"  # Pictographs
+            r"\U0001F600-\U0001F64F"  # Emoticons
+            r"\U0001F680-\U0001F6FF"  # Transport
+            r"\U00002600-\U000027BF"  # Misc Symbols
+            r"]+)"
+        )
+        match = emoji_pattern.match(old_remark)
+        
+        if match:
+            # If emojis are found, combine them with the tag
+            flags = match.group(1).strip()
+            final_remark = f"{tag} {flags}"
+        else:
+            # If no emojis are found, use only the tag
+            final_remark = tag
+
+        # Step 3: Inject the new remark back into the config
+        if config.startswith("vmess://"):
+            config_json['ps'] = final_remark
             new_config_json_str = json.dumps(config_json, separators=(',', ':'))
             new_b64_part = base64.b64encode(new_config_json_str.encode('utf-8')).decode('utf-8').rstrip('=')
             return f"vmess://{new_b64_part}"
-        base_config = config.split('#', 1)[0]
-        encoded_remark = quote(remark)
-        return f"{base_config}#{encoded_remark}"
+        else: # For other URL-like configs
+            base_config = config.split('#', 1)[0]
+            return f"{base_config}#{quote(final_remark)}"
+
     except Exception as e:
-        logger.error(f"Failed to set remark for a config: {e}")
+        logger.error(f"Failed to set smart remark, returning original: {config} | Error: {e}")
         return config
+# --- END: Final set_remark function ---
 
 class ConfigFetcher:
     def __init__(self, config: ProxyConfig):
@@ -175,15 +212,11 @@ class ConfigFetcher:
 
         unique_configs = list(set(configs))
         
-        # --- START OF THE FIX ---
-        # Create a new list to hold the final, tagged configs
         final_channel_configs = []
         for config in unique_configs:
-            # process_config returns a list, usually with one tagged config
             processed_list = self.process_config(config, channel)
             if processed_list:
                 final_channel_configs.extend(processed_list)
-        # --- END OF THE FIX ---
 
         if len(final_channel_configs) >= self.config.MIN_CONFIGS_PER_CHANNEL:
             self.config.update_channel_stats(channel, True, response_time if 'response_time' in locals() else time.time() - start_time)
@@ -192,7 +225,7 @@ class ConfigFetcher:
             self.config.update_channel_stats(channel, False)
             logger.warning(f"Not enough configs found in {channel.url}: {len(final_channel_configs)} configs")
         
-        return final_channel_configs # Return the NEW list with tagged configs
+        return final_channel_configs
 
     def process_config(self, config: str, channel: ChannelConfig) -> List[str]:
         processed_configs = []
