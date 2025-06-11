@@ -117,75 +117,82 @@ class ConfigFetcher:
             if configs:
                 response_time = time.time() - start_time
                 self.config.update_channel_stats(channel, True, response_time)
-            return configs
-        response = self.fetch_with_retry(channel.url)
-        if not response:
-            self.config.update_channel_stats(channel, False)
-            return configs
-        response_time = time.time() - start_time
-        if channel.is_telegram:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            messages = soup.find_all('div', class_='tgme_widget_message_text')
-            sorted_messages = sorted(
-                messages,
-                key=lambda message: self.extract_date_from_message(message) or datetime.min.replace(tzinfo=timezone.utc),
-                reverse=True
-            )
-            for message in sorted_messages:
-                if not message or not message.text:
-                    continue
-                message_date = self.extract_date_from_message(message)
-                if not self.is_config_valid(message.text, message_date):
-                    continue
-                text = message.text
+            # Fall through to process these configs
+        else:
+            response = self.fetch_with_retry(channel.url)
+            if not response:
+                self.config.update_channel_stats(channel, False)
+                return configs
+            response_time = time.time() - start_time
+            if channel.is_telegram:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                messages = soup.find_all('div', class_='tgme_widget_message_text')
+                sorted_messages = sorted(
+                    messages,
+                    key=lambda message: self.extract_date_from_message(message) or datetime.min.replace(tzinfo=timezone.utc),
+                    reverse=True
+                )
+                for message in sorted_messages:
+                    if not message or not message.text:
+                        continue
+                    message_date = self.extract_date_from_message(message)
+                    if not self.is_config_valid(message.text, message_date):
+                        continue
+                    text = message.text
+                    text_parts = text.split()
+                    for part in text_parts:
+                        part = part.strip()
+                        if not part:
+                            continue
+                        if part.startswith('ssconf://'):
+                            ssconf_configs = self.fetch_ssconf_configs(part)
+                            configs.extend(ssconf_configs)
+                            channel.metrics.total_configs += len(ssconf_configs)
+                        else:
+                            decoded_part = self.check_and_decode_base64(part)
+                            if decoded_part != part:
+                                found_configs = self.validator.split_configs(decoded_part)
+                                channel.metrics.total_configs += len(found_configs)
+                                configs.extend(found_configs)
+                    found_configs = self.validator.split_configs(text)
+                    channel.metrics.total_configs += len(found_configs)
+                    configs.extend(found_configs)
+            else:
+                text = response.text
                 text_parts = text.split()
                 for part in text_parts:
                     part = part.strip()
                     if not part:
                         continue
-                    if part.startswith('ssconf://'):
-                        ssconf_configs = self.fetch_ssconf_configs(part)
-                        configs.extend(ssconf_configs)
-                        channel.metrics.total_configs += len(ssconf_configs)
-                    else:
-                        decoded_part = self.check_and_decode_base64(part)
-                        if decoded_part != part:
-                            found_configs = self.validator.split_configs(decoded_part)
-                            channel.metrics.total_configs += len(found_configs)
-                            configs.extend(found_configs)
+                    decoded_part = self.check_and_decode_base64(part)
+                    if decoded_part != part:
+                        found_configs = self.validator.split_configs(decoded_part)
+                        channel.metrics.total_configs += len(found_configs)
+                        configs.extend(found_configs)
                 found_configs = self.validator.split_configs(text)
                 channel.metrics.total_configs += len(found_configs)
                 configs.extend(found_configs)
-        else:
-            text = response.text
-            text_parts = text.split()
-            for part in text_parts:
-                part = part.strip()
-                if not part:
-                    continue
-                decoded_part = self.check_and_decode_base64(part)
-                if decoded_part != part:
-                    found_configs = self.validator.split_configs(decoded_part)
-                    channel.metrics.total_configs += len(found_configs)
-                    configs.extend(found_configs)
-            found_configs = self.validator.split_configs(text)
-            channel.metrics.total_configs += len(found_configs)
-            configs.extend(found_configs)
-        configs = list(set(configs))
-        for config in configs[:]:
-            for protocol in self.config.SUPPORTED_PROTOCOLS:
-                if config.startswith(protocol):
-                    processed_configs = self.process_config(config, channel)
-                    if not processed_configs:
-                        configs.remove(config)
-                    break
-        if len(configs) >= self.config.MIN_CONFIGS_PER_CHANNEL:
-            self.config.update_channel_stats(channel, True, response_time)
+
+        unique_configs = list(set(configs))
+        
+        # --- START OF THE FIX ---
+        # Create a new list to hold the final, tagged configs
+        final_channel_configs = []
+        for config in unique_configs:
+            # process_config returns a list, usually with one tagged config
+            processed_list = self.process_config(config, channel)
+            if processed_list:
+                final_channel_configs.extend(processed_list)
+        # --- END OF THE FIX ---
+
+        if len(final_channel_configs) >= self.config.MIN_CONFIGS_PER_CHANNEL:
+            self.config.update_channel_stats(channel, True, response_time if 'response_time' in locals() else time.time() - start_time)
             self.config.adjust_protocol_limits(channel)
         else:
             self.config.update_channel_stats(channel, False)
-            logger.warning(f"Not enough configs found in {channel.url}: {len(configs)} configs")
-        return configs
+            logger.warning(f"Not enough configs found in {channel.url}: {len(final_channel_configs)} configs")
+        
+        return final_channel_configs # Return the NEW list with tagged configs
 
     def process_config(self, config: str, channel: ChannelConfig) -> List[str]:
         processed_configs = []
