@@ -79,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇬🇧 vless-c0ea00c2 (United Kingdom)",
-        "🇬🇧 vless-cade20cc (United Kingdom)",
+        "🇬🇧 vless-14f0617e (United Kingdom)",
+        "🇬🇧 vless-662852ed (United Kingdom)",
         "direct"
       ]
     },
@@ -88,8 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇬🇧 vless-c0ea00c2 (United Kingdom)",
-        "🇬🇧 vless-cade20cc (United Kingdom)"
+        "🇬🇧 vless-14f0617e (United Kingdom)",
+        "🇬🇧 vless-662852ed (United Kingdom)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-c0ea00c2 (United Kingdom)",
+      "tag": "🇬🇧 vless-14f0617e (United Kingdom)",
       "server": "102.177.189.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -121,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-cade20cc (United Kingdom)",
+      "tag": "🇬🇧 vless-662852ed (United Kingdom)",
       "server": "102.177.189.29",
       "server_port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
