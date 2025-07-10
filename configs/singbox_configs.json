@@ -79,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-8c2f34da (Canada)",
-        "🇨🇦 vless-51012335 (Canada)",
+        "🇨🇦 vless-a1186b57 (Canada)",
+        "🇨🇦 vless-119cd62f (Canada)",
         "direct"
       ]
     },
@@ -88,8 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-8c2f34da (Canada)",
-        "🇨🇦 vless-51012335 (Canada)"
+        "🇨🇦 vless-a1186b57 (Canada)",
+        "🇨🇦 vless-119cd62f (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-8c2f34da (Canada)",
+      "tag": "🇨🇦 vless-a1186b57 (Canada)",
       "server": "104.18.26.90",
       "server_port": 443,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -121,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-51012335 (Canada)",
+      "tag": "🇨🇦 vless-119cd62f (Canada)",
       "server": "104.18.26.90",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
