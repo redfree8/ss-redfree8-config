@@ -79,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇬🇧 vless-cd7772e6 (United Kingdom)",
-        "🇬🇧 vless-87031006 (United Kingdom)",
+        "🇨🇦 vless-8c2f34da (Canada)",
+        "🇨🇦 vless-51012335 (Canada)",
         "direct"
       ]
     },
@@ -88,8 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇬🇧 vless-cd7772e6 (United Kingdom)",
-        "🇬🇧 vless-87031006 (United Kingdom)"
+        "🇨🇦 vless-8c2f34da (Canada)",
+        "🇨🇦 vless-51012335 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,40 +101,40 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-cd7772e6 (United Kingdom)",
-      "server": "102.177.189.29",
-      "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "tag": "🇨🇦 vless-8c2f34da (Canada)",
+      "server": "104.18.26.90",
+      "server_port": 443,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "102.177.189.29",
+        "server_name": "reedfree8mahsang2.redorg.ir",
         "insecure": true
       },
       "transport": {
-        "path": "%2FTelegramU0001F1E8U0001F1F3",
+        "path": "/Telegram🇨🇳",
         "headers": {
-          "Host": "hk.laoyoutiao.link"
+          "Host": "reedfree8mahsang2.redorg.ir"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-87031006 (United Kingdom)",
-      "server": "102.177.189.29",
+      "tag": "🇨🇦 vless-51012335 (Canada)",
+      "server": "104.18.26.90",
       "server_port": 8880,
-      "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "102.177.189.29",
+        "server_name": "104.18.26.90",
         "insecure": true
       },
       "transport": {
-        "path": "/TelegramU0001F1E8U0001F1F3",
+        "path": "/Telegram🇨🇳",
         "headers": {
-          "Host": "hk.laoyoutiao.link"
+          "Host": "reedfree8mahsang2.redorg.ir"
         },
         "type": "ws"
       }
