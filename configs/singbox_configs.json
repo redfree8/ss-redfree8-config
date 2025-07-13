@@ -79,11 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-e661ffd4 (Canada)",
-        "🇨🇦 vless-7dd2fbae (Canada)",
-        "🇨🇦 vless-bd8ad564 (Canada)",
-        "🇨🇦 vless-d8c422e7 (Canada)",
-        "🇨🇦 vless-ab356afb (Canada)",
+        "🇨🇦 vless-ee6d90e9 (Canada)",
+        "🇨🇦 vless-e1dbf1f5 (Canada)",
+        "🇨🇦 vless-6f4631c3 (Canada)",
+        "🇨🇦 vless-0f2cca2d (Canada)",
+        "🇨🇦 vless-4f44770c (Canada)",
         "direct"
       ]
     },
@@ -91,11 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-e661ffd4 (Canada)",
-        "🇨🇦 vless-7dd2fbae (Canada)",
-        "🇨🇦 vless-bd8ad564 (Canada)",
-        "🇨🇦 vless-d8c422e7 (Canada)",
-        "🇨🇦 vless-ab356afb (Canada)"
+        "🇨🇦 vless-ee6d90e9 (Canada)",
+        "🇨🇦 vless-e1dbf1f5 (Canada)",
+        "🇨🇦 vless-6f4631c3 (Canada)",
+        "🇨🇦 vless-0f2cca2d (Canada)",
+        "🇨🇦 vless-4f44770c (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-e661ffd4 (Canada)",
+      "tag": "🇨🇦 vless-ee6d90e9 (Canada)",
       "server": "104.18.26.90",
       "server_port": 443,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -127,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-7dd2fbae (Canada)",
+      "tag": "🇨🇦 vless-e1dbf1f5 (Canada)",
       "server": "104.18.26.90",
       "server_port": 8880,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -147,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-bd8ad564 (Canada)",
+      "tag": "🇨🇦 vless-6f4631c3 (Canada)",
       "server": "104.26.7.89",
       "server_port": 443,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -167,7 +167,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-d8c422e7 (Canada)",
+      "tag": "🇨🇦 vless-0f2cca2d (Canada)",
       "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -187,7 +187,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-ab356afb (Canada)",
+      "tag": "🇨🇦 vless-4f44770c (Canada)",
       "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
